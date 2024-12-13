@@ -1,0 +1,51 @@
+{
+    "record": "ferrari-consulting-group-appointments",
+    "searchParams": {
+        "queries": [
+            {
+                "canToggle": true,
+                "active": true,
+                "filter": [
+                    {
+                        "subject": "1795685-date-booked",
+                        "requestType": "i",
+                        "type": "datetime",
+                        "operator": "within",
+                        "ignoreCase": true,
+                        "value": {
+                            "from": {
+                                "relative": true,
+                                "value": 1,
+                                "type": {
+                                    "type": "END_OF",
+                                    "ref": "last_x_days"
+                                }
+                            },
+                            "to": {
+                                "relative": true,
+                                "value": 1,
+                                "type": {
+                                    "type": "START_OF",
+                                    "ref": "next_x_days"
+                                }
+                            }
+                        }
+                    },
+                    "and",
+                    {
+                        "subject": "1795685-status",
+                        "requestType": "i",
+                        "type": "array",
+                        "operator": "none_of",
+                        "ignoreCase": true,
+                        "value": [
+                            "1851316"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "layoutId": 10014322
+    },
+    "variant": "layout"
+}

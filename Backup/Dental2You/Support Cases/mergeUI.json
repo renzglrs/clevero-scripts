@@ -1,0 +1,48 @@
+[
+    {
+        "key": "form-input",
+        "name": "values",
+        "title": "Duplicate Patient Merge Process",
+        "form": [
+            {
+                "label": "Please choose a patient to which you want to merge data to..",
+                "name": "patient",
+                "fieldType": "select",
+                "settings": {
+                    "recordId": 1197847,
+                    "fieldId": 16047,
+                    "openViewModal": true
+                },
+                "inputState": {
+                    "placeholder": "Please select patient.."
+                }
+            },
+            {
+                "label": "Please choose a medicare number to which you want to merge data to..",
+                "name": "patient",
+                "fieldType": "select",
+                "settings": {
+                    "recordId": 1197847,
+                    "fieldId": 16163,
+                    "openViewModal": true
+                },
+                "inputState": {
+                    "placeholder": "Please select a medicare number.."
+                }
+            },
+            {
+                "label": "Please choose a email to which you want to merge data to..",
+                "name": "patient",
+                "fieldType": "select",
+                "settings": {
+                    "recordId": 1197847,
+                    "fieldId": 16050,
+                    "openViewModal": true
+                },
+                "inputState": {
+                    "placeholder": "Please select an email.."
+                }
+            }
+        ]
+    }
+]
